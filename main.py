@@ -26,7 +26,7 @@ def create():
     # Making a function to open the directory in file explorer
     def openExplorer(path):
         FILEBROWSER_PATH = os.path.join(os.getenv('WINDIR'), 'explorer.exe')
-        subprocess.run([FILEBROWSER_PATH, lessonPath])
+        subprocess.run([FILEBROWSER_PATH, path])
 
     # Getting entries from the inputs
     yearField = year.get()
