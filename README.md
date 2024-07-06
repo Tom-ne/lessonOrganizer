@@ -1,1 +1,1 @@
-# magshimimLessonCreator
+# Lesson organizer
